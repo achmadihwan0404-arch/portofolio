@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikhwan - Full Stack Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="ikhwan.png" type="image/png">
+    <meta name="description"
+        content="Portfolio website Ikhwan, Full Stack Developer berpengalaman dengan React, Node.js, dan teknologi modern lainnya.">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">IKHWAN</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle">🌙 Dark</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <img src="ikhwan.png" alt="Ikhwan Profile" class="profile-img">
+            <h1></h1>
+            <p class="subtitle">Full Stack Developer | React | Node.js | MERN Stack | Building Amazing Web Apps</p>
+            <a href="#projects" class="btn">Lihat Projects Saya</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="dark">
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="about-content">
+            <div>
+                <img src="ikhwan.png" alt="Ikhwan" class="profile-img">
+            </div>
+            <div class="about-text">
+                <p>Halo! Saya Ikhwan, Full Stack Developer passionate tentang membangun aplikasi web modern yang
+                    scalable dan user-friendly.</p>
+                <p>Pengalaman dengan <strong>Frontend</strong>: React, Next.js, Tailwind CSS. <strong>Backend</strong>:
+                    Node.js, Express, MongoDB, PostgreSQL.
+                    Suka deploy ke Vercel, Heroku, dan AWS.</p>
+                <p>Selalu belajar tech baru seperti TypeScript, GraphQL, dan Docker. Mari kolaborasi untuk project
+                    keren!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Tech Stack Saya</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">⚛️</div>
+                <h3 class="skill-title">Frontend</h3>
+                <p>React, Next.js, Vue.js, HTML5, CSS3, Tailwind, GSAP</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚙️</div>
+                <h3 class="skill-title">Backend</h3>
+                <p>Node.js, Express, Python Flask, REST APIs, GraphQL</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🗄️</div>
+                <h3 class="skill-title">Database</h3>
+                <p>MongoDB, PostgreSQL, MySQL, Redis, Firebase</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">☁️</div>
+                <h3 class="skill-title">DevOps</h3>
+                <p>Docker, AWS, Vercel, Heroku, CI/CD, Git</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="dark">
+        <h2 class="section-title">Projects Terbaik</h2>
+        <div class="project-grid">
+            <!-- Populated by JS -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Hubungi Saya</h2>
+        <p style="text-align: center; max-width: 600px; margin: 0 auto 3rem; color: var(--text-light);">
+            Tertarik bekerja sama? Kirim pesan sekarang!
+        </p>
+        <form class="contact-form">
+            <input type="text" placeholder="Nama Lengkap" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Subjek">
+            <textarea placeholder="Pesan Anda..." required></textarea>
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ikhwan. Dibuat dengan ❤️ menggunakan HTML, CSS, JS. Full Stack Ready!</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
